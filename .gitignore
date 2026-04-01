@@ -1,0 +1,32 @@
+# Windows
+Thumbs.db
+Desktop.ini
+
+# PowerShell
+*.pdb
+*.psm1
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Test artifacts
+tests/output/
+
+# Auth/Credentials (never commit these!)
+*.env
+*.key
+*.pem
+*secret*
+*password*
+*token*
+
+# Personal config
+config.local.json
+*.local.ps1
